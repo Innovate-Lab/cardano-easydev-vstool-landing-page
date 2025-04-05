@@ -49,22 +49,9 @@ export const Features = () => {
                             <p className="text-2xl text-[#B4D9E2]/90 leading-relaxed">
                                 {selectedFeature.description}
                             </p>
-                            <button
-                                onClick={() => setIsVideoOpen(true)}
-                                className="inline-flex items-center space-x-3 px-8 py-4 bg-[#00E5FF] rounded-xl hover:opacity-90 transition-opacity text-[#001215] font-medium text-lg"
-                            >
-                                <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path d="M10 8L16 12L10 16V8Z" fill="currentColor" />
-                                </svg>
-                                <span>Watch Demo</span>
-                            </button>
                         </div>
                         <div className="relative group">
-                            <div className="absolute inset-0 bg-gradient-to-r from-[#00E5FF] to-[#00FFD1] rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity" />
-                            <div className="relative bg-[#002830] rounded-2xl aspect-video p-8 flex items-center justify-center border border-[#004D59]/30">
-                                <p className="text-[#B4D9E2]/60 text-xl">Feature Preview</p>
-                            </div>
+                            {selectedFeature.iframe}
                         </div>
                     </div>
                 </div>
