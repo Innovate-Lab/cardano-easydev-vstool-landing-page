@@ -12,7 +12,6 @@ export const Footer = () => {
                         <ul className="space-y-4 text-[#B4D9E2]/90">
                             <li>Features</li>
                             <li>Documentation</li>
-                            <li>Pricing</li>
                             <li>Roadmap</li>
                         </ul>
                     </div>
@@ -21,22 +20,17 @@ export const Footer = () => {
                         <ul className="space-y-4 text-[#B4D9E2]/90">
                             <li>Blog</li>
                             <li>Tutorials</li>
-                            <li>Support</li>
-                            <li>Community</li>
                         </ul>
                     </div>
                     <div>
                         <h4 className="font-bold mb-6">Company</h4>
                         <ul className="space-y-4 text-[#B4D9E2]/90">
                             <li>About</li>
-                            <li>Careers</li>
-                            <li>Contact</li>
-                            <li>Legal</li>
                         </ul>
                     </div>
                 </div>
                 <div className="mt-12 pt-8 border-t border-[#004D59]/30 text-center text-[#B4D9E2]/90">
-                    <p>&copy; 2024 EasyDev. All rights reserved.</p>
+                    <p>&copy; 2025 Inno Labs. All rights reserved.</p>
                 </div>
             </div>
         </footer>
