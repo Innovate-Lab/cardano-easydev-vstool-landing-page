@@ -5,7 +5,7 @@ export const Benefits = () => {
         <div className="w-full py-32 bg-[#001A1F]">
             <div className="max-w-[90%] mx-auto">
                 <div className="text-center mb-20">
-                    <h2 className="text-5xl font-bold mb-6">Why Choose EasyDev?</h2>
+                    <h2 className="text-5xl font-bold mb-6">Why use Cardano EasyDev VsTool?</h2>
                     <p className="text-xl text-[#B4D9E2]/90 max-w-3xl mx-auto">
                         Our comprehensive suite of development tools helps you build, test, and deploy Cardano applications with confidence.
                     </p>

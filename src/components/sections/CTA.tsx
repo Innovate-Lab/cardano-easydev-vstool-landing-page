@@ -7,10 +7,10 @@ export const CTA = () => {
                     Join thousands of developers building the future of finance on Cardano.
                 </p>
                 <div className="flex justify-center space-x-6">
-                    <button className="px-8 py-4 bg-gradient-to-r from-[#00E5FF] to-[#00FFD1] rounded-xl hover:opacity-90 transition-opacity text-lg font-medium text-[#001215]">
+                    <button className="px-8 py-4 bg-gradient-to-r from-[#00E5FF] to-[#00FFD1] rounded-xl hover:opacity-90 transition-opacity text-lg font-medium text-[#001215]" onClick={() => window.open('https://marketplace.visualstudio.com/items?itemName=inno-labs.cardano-easydev-vstool&ssr=false#review-details', '_blank')}>
                         Get Started Free
                     </button>
-                    <button className="px-8 py-4 bg-[#002830] rounded-xl hover:bg-[#003540] transition-colors text-lg font-medium border border-[#004D59]/30">
+                    <button className="px-8 py-4 bg-[#002830] rounded-xl hover:bg-[#003540] transition-colors text-lg font-medium border border-[#004D59]/30" onClick={() => window.open('https://innolab.gitbook.io/cardano-easydev-vs-tool', '_blank')}>
                         View Documentation
                     </button>
                 </div>

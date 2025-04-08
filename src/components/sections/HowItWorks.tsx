@@ -7,7 +7,7 @@ export const HowItWorks = () => {
                 <div className="text-center mb-20">
                     <h2 className="text-5xl font-bold mb-6">How It Works</h2>
                     <p className="text-xl text-[#B4D9E2]/90 max-w-3xl mx-auto">
-                        Get started with Cardano development in three simple steps.
+                        Get started with Cardano EasyDev VsTool in three simple steps.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
