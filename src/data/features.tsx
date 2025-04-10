@@ -48,7 +48,7 @@ export const features = [
         id: 'simulation-transaction',
         title: 'Simulation Transaction',
         description: 'Simulate transactions on the Cardano blockchain with our simulation system, allowing you to test and validate your smart contracts before deployment in mainnet.',
-        videoUrl: 'https://www.youtube.com/watch?v=WF8rBiVI_Bs',
+        videoUrl: 'https://www.youtube.com/watch?v=yDhnMjjDc7A',
         icon: (
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
